@@ -21,7 +21,7 @@ Each target is actually a collection of symlinks to our unit files. Running `sys
 
 ## Unit File
 
-On CoreOS, unit files are located within the R/W filesystem at `/media/state/units`. Let's take a look at a simple unit file:
+On CoreOS, unit files are located within the R/W filesystem at `/media/state/units`. Let's take a look at a simple unit file `/media/state/units/hello.service`:
 
 ```
 [Unit]
